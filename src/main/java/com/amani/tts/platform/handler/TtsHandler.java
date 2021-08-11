@@ -13,7 +13,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class TtsHandler {
-  private static final int maxTextSize = 3000;
+  private static final int maxTextSize = 300;
   private final ContentDownloadService contentDownloadService;
   private final HtmlContentParsingService htmlContentParsingService;
   private final TtsCoreService ttsCoreService;
